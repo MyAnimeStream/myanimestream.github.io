@@ -23,7 +23,7 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/MyAnimeStream"
 
-logo: "/assets/images/logo128.png"
+logo: "/assets/img/logo128.png"
 
 baseurl: /
 

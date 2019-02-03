@@ -1,5 +1,4 @@
 ---
-layout: posts
 title: Hello World
 excerpt: >
     There's a saying that your first post has to be somewhat stupid, isn't there?
