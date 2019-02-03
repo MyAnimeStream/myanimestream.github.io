@@ -17,6 +17,14 @@ author:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/siku_2"
 
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/MyAnimeStream"
+
+logo: "/assets/images/logo128.png"
+
 baseurl: /
 
 include:
@@ -26,7 +34,7 @@ exclude:
   - README.md
 
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: dark
+minimal_mistakes_skin: dirt
 breadcrumbs: true
 search: true
 
@@ -55,3 +63,15 @@ defaults:
       layout: single
       author_profile: false
       read_time: true
+
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
